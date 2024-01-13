@@ -12,6 +12,11 @@ h1{
    color: #8B0000;
 }
 
+.navbar {
+   box-sizing: border-box;
+   width: 100%;
+}
+
 .navbar ul{
    list-style-type: none;
    background-color: #A6AAB3;
@@ -26,6 +31,7 @@ h1{
    padding: 15px;
    display: block;
    text-align: center;
+   transition: background-color 0.8s;  /* Extra toevoeging buiten de basiseisen. */
 }
 .navbar a:hover{
    background-color: #8B0000;
@@ -33,4 +39,47 @@ h1{
 }
 .navbar li{
    float: left;
+}
+
+header h1 {
+   font-size: 24px;
+   color: #8B0000
+}
+
+header h1 a {
+   text-decoration: none;
+   color: #8B0000;
+}
+
+header h1 a:hover {
+   color:#C80815;
+}
+
+body {
+   margin:0;
+   padding: 0;
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+   line-height: 1.5;
+   color: #000000;
+   background-color: #FFFFFF;
+}
+
+footer {
+   background-color: #f2f2f2; /* Light grey background */
+   color: #8B0000;
+   text-align: center;
+   padding: 20px 0;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+}
+
+footer a {
+   color: #C80815; /* Blue color for email link */
+   text-decoration: underline; /* Underline for email link */
+}
+
+footer a:hover {
+   color: #8B0000; /* Darker blue when hovered */
 }
