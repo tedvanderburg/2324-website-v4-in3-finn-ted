@@ -37,6 +37,11 @@ h1{
    background-color: #8B0000;
    color: #A6AAB3
 }
+
+.navbar a.active{
+   background-color: #8B0000;
+   color: #FFFFFF;
+}
 .navbar li{
    float: left;
 }

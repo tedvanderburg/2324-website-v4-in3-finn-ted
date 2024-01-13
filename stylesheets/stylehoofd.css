@@ -7,9 +7,9 @@
 article {
     margin-left: 25%;
     padding: 1px 16px;
-    height: 1000px;
+    height: 880px;
 }
- 
+
  .navbar {
     box-sizing: border-box;
     width: 100%;
@@ -33,18 +33,20 @@ article {
     padding: 15px;
     display: block;
     text-align: center;
-    transition: background-color 0.8s;  /* Extra toevoeging buiten de basiseisen. */
+    transition: background-color 0.8s;  <!-- Extra toevoeging buiten de basiseisen. --!>
  }
- .navbar a:hover{
+ .navbar a:hover:not(.active){
     background-color: #8B0000;
     color: #A6AAB3;
  }
- .navbar li{
-    displ
+
+ .navbar a:active{
+    background-color: #8B0000;
+    color: #FFFFFF;
  }
+
  
  header {
-    center:left;
     width: 25%;
     background-color: black;
  }
