@@ -46,7 +46,11 @@ article {
     background-color: #8B0000;
     color: #FFFFFF;
  }
- 
+
+ .introductie{
+   text-align: center;
+ }
+
  header {
     width: 25%;
     background-color: black;

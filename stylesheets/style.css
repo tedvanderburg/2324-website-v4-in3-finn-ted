@@ -31,7 +31,7 @@ h1{
    padding: 15px;
    display: block;
    text-align: center;
-   transition: background-color 0.8s;  /* Extra toevoeging buiten de basiseisen. */
+   transition: background-color 0.8s; 
 }
 .navbar a:hover{
    background-color: #8B0000;
@@ -79,7 +79,7 @@ lagen {
 }
 
 footer {
-   background-color: #f2f2f2; /* Light grey background */
+   background-color: #f2f2f2; 
    color: #8B0000;
    text-align: center;
    padding: 20px 0;
