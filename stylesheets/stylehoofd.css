@@ -47,7 +47,11 @@ article {
     color: #FFFFFF;
  }
 
- .introductie{
+ .introductie {
+   text-align: center;
+ }
+
+ .foto {
    text-align: center;
  }
 
