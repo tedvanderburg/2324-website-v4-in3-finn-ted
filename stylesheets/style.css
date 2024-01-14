@@ -90,10 +90,10 @@ footer {
 }
 
 footer a {
-   color: #C80815; /* Blue color for email link */
-   text-decoration: underline; /* Underline for email link */
+   color: #C80815; 
+   text-decoration: underline; 
 }
 
 footer a:hover {
-   color: #8B0000; /* Darker blue when hovered */
+   color: #8B0000; 
 }
